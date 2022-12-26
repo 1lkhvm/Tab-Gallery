@@ -1,0 +1,75 @@
+.card-all{
+  display: flex; 
+  width: 80%;
+  gap: 20px;
+  cursor: pointer;
+  
+  
+}
+
+*{
+  width: 100%;
+  
+}
+
+.card-foto  img {
+  width: 30%;
+  display: flex;
+  border: 8px solid rgb(150, 131, 24);
+  cursor: pointer;
+}
+
+.card-foto  {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+
+.card{
+  width: 80%;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 4px solid rgb(255, 115, 0);
+
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#root{display: flex;
+  flex-direction: column;
+  align-items: center;}
+
+
+
+  .bmw-text h1{
+    text-align: center;
+    text-decoration:underline;
+    cursor: pointer;
+    font-size: 50px;
+    color: rgb(150, 131, 24);}
+    
+
+
+
+    .mina-studio {
+      margin-top: -10px;
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 20px;
+      align-items: center;
+      margin-right: 150px;
+    }
+    .mina-studio p {
+      color: rgb(27, 45, 110);
+      font-size: 20px;
+     
+    }
+    .mina-studio p:hover {
+      text-decoration: underline;
+    }
+    .mina-studio iframe {
+      width: 30px;
+      height: 30px;
+    }
